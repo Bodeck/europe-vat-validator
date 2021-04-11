@@ -11,7 +11,7 @@ Excel VBA tool to validate VAT Registration Numbers for EU and UK companies. In 
      
 ## Web APIs
 ### EU Countries
-![Europe Commition Logo](https://ec.europa.eu/taxation_customs/vies/images/template-2012/logo/logo_en.gif)
+![Europe Commission Logo](https://ec.europa.eu/taxation_customs/vies/images/template-2012/logo/logo_en.gif)
 Eropean Commission's VIES (VAT Information Electronic System) offers SOAP service which allows to validate VAT Registration Number for EU countries (see table below).
 For more details about service see [VIES FAQ](https://ec.europa.eu/taxation_customs/vies/faq.html).
 |||||
@@ -37,5 +37,5 @@ Where early binding have been used, following references must be set up within V
 * MSXML v3.0 (DOMDocument)
 * Microsoft Scripting Runtime (Dictionary)
 
-##TODO
+## TODO
 - [ ] implement exception handler
