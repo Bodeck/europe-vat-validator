@@ -15,7 +15,7 @@ Private checkVatReq As WebRequest
 Private Sub Class_Initialize()
   Set webCli = New WebClient
   With webCli
-    .BaseUrl = "https://api.service.hmrc.gov.uk//organisations/vat/check-vat-number/lookup/"
+    .BaseUrl = "https://api.service.hmrc.gov.uk/organisations/vat/check-vat-number/lookup/"
     .Insecure = False
     .FollowRedirects = False
   End With
